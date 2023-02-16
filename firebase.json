@@ -4,7 +4,7 @@
     "redirects": [
       {
         "source": "/Welcome.html",
-        "destination": "/home.html",
+        "destination": "/Welcome.html",
         "type": 301
       }
     ],
