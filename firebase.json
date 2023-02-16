@@ -3,8 +3,8 @@
     "public": "public",
     "redirects": [
       {
-        "source": "/Welcome.html",
-        "destination": "/Welcome.html",
+        "source": "/index.html",
+        "destination": "/GCP_landing_page.html",
         "type": 301
       }
     ],
