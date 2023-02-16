@@ -3,7 +3,7 @@
     "public": "public",
     "redirects": [
       {
-        "source": "/index.html",
+        "source": "/Welcome.html",
         "destination": "/home.html",
         "type": 301
       }
