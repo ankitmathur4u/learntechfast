@@ -5,53 +5,43 @@
         crossorigin="anonymous"></script>
 
 <body>
-<!-- #######  THIS IS A COMMENT - Visible only in the source editor #########-->
-<p dir="ltr">Big data is traditionally stored and computed using Hadoop technologies which involves managing a lot of underlying in-house infrastructure, upscaling challenges and many other roadblocks. With the emergence of Cloud technologies, it has become easier to bring your focus back to data and business problems, instead of the infrastructure.</p>
-<h2>&nbsp;</h2>
-<p dir="ltr">Google Cloud offers following options-</p>
-<p dir="ltr">&nbsp;</p>
-<p dir="ltr">1. &nbsp; &nbsp; Storage</p>
-<p dir="ltr">a. &nbsp; &nbsp; Batch Data</p>
-<p dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Google Cloud Storage</p>
-<p dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. BigQuery</p>
-<p dir="ltr">b. &nbsp; &nbsp; Real time data</p>
-<p dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Cloud BigTable</p>
-<p dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Cloud Spanner</p>
-<p dir="ltr">2. &nbsp; &nbsp; Compute/ Data processing</p>
-<p dir="ltr">a. &nbsp; &nbsp; DataProc</p>
-<p dir="ltr">b. &nbsp; &nbsp; DataFlow</p>
-<p dir="ltr">3. &nbsp; &nbsp; Orchestrate</p>
-<p dir="ltr">a. &nbsp; &nbsp; Cloud Composure</p>
-<p dir="ltr">4. &nbsp; &nbsp; Data ingestion</p>
-<p dir="ltr">a. &nbsp; &nbsp; DataFlow</p>
-<p dir="ltr">b. &nbsp; &nbsp; Pub/Sub</p>
-<p dir="ltr">c. &nbsp; &nbsp; Gsutil</p>
-<p dir="ltr">d. &nbsp; &nbsp; Transfer appliance</p>
-<p dir="ltr">5. &nbsp; &nbsp; Data mining and exploration</p>
-<p dir="ltr">a. &nbsp; &nbsp; Cloud Datalab</p>
-<p dir="ltr">b. &nbsp; &nbsp; Cloud Dataprep</p>
-<p dir="ltr">6. &nbsp; &nbsp; Data visualisation</p>
-<p dir="ltr">a. &nbsp; &nbsp; Looker</p>
-<p dir="ltr">&nbsp;</p>
-<p dir="ltr">&nbsp;</p>
-<p dir="ltr">Approaches available to transfer data</p>
-<p dir="ltr">1. &nbsp; &nbsp; A public internet- using public API</p>
-<p dir="ltr">2. &nbsp; &nbsp; Direct Peering- using public API</p>
-<p dir="ltr">3. &nbsp; &nbsp; Cloud Interconnect &ndash; using private API</p>
-<p dir="ltr">&nbsp;</p>
-<p dir="ltr">Drawbacks of Public Internet</p>
-<p dir="ltr">1. &nbsp; &nbsp; Unpredictable network throughput</p>
-<p dir="ltr">2. &nbsp; &nbsp; Limited SLA with internet service provider</p>
-<p dir="ltr">3. &nbsp; &nbsp; Security concerns for sensitive data</p>
-<p dir="ltr">&nbsp;</p>
-<p dir="ltr">Direct Peering</p>
-<p dir="ltr">1. &nbsp; &nbsp; Avoids risk of data going on public internet</p>
-<p dir="ltr">2. &nbsp; &nbsp; Limited hops between your network and Google&rsquo;s network</p>
-<p dir="ltr">&nbsp;</p>
-<p dir="ltr">Cloud Interconnect</p>
-<p dir="ltr">1. &nbsp; &nbsp; Avoid risk of data going in public internet and more consistent throughput</p>
-<p dir="ltr">2. &nbsp; &nbsp; Pledged SLA for network and performance</p>
-<p dir="ltr">3. &nbsp; &nbsp; Supports RFC 1918- which makes cloud an extension of your private data centre without public IP address or NAT</p>
-<p dir="ltr">&nbsp;</p>
+<p>&nbsp;A lot of misconception lies about what is &quot;Data Engineering&quot; and what problem does it solve.</p>
+
+<blockquote>
+    <p>To clear out the doubt- it does not overshadow any of the existing technology (especially any programming language) in fact it solves a problem that was not solved earlier.</p>
+
+    <p>Data Engineering brings all the data which is relevant to address a business problem from the history to the last-second transaction on the same page. Not just that, it brings all data in a neat, clean, and analytical manner. It helps the business teams to make data-driven decisions.</p>
+</blockquote>
+
+<p>Data engineering begins with the automation of extraction of data (at source), the transformation of data (on the way), and Loading (the data at the destination). And, to access the data for the end-user there are BI tools. To make it user-friendly there are graphs and maps.</p>
+
+<p>With the help of data engineering, all the relevant departments get the information they need from a 360-degree perspective. For instance, a marketing team can now see the sales funnel. A product management team can see the cost benefits. The management can see the high-level KPI of the business.&nbsp;</p>
+
+<p>This goes on well for&nbsp;some time&nbsp;and all departments get their share of benefit until the volume of data increases over a period of time. Now, this new &ldquo;big data&rdquo; makes the queries, dashboards, and graphs slow to respond and load for users. Similarly the pipeline- which was responsible for bringing the data after ETL become slow and impact the businesses.</p>
+
+<blockquote>
+    <p>So you have another problem to solve called- &ldquo;Big Data&rdquo;.</p>
+
+    <p>Data engineering is backed by &ldquo;Big Data&rdquo; which addresses the problem of - Volume, Velocity, Variety, Veracity.</p>
+</blockquote>
+
+<p><img alt="Volume, Velocity and Variety " src="https://media.licdn.com/dms/image/C5612AQG_Ad2bvntnnw/article-inline_image-shrink_1500_2232/0/1643801677906?e=1681948800&amp;v=beta&amp;t=pjig01pDVrqSGp1ybGs0lUeBcbAIG2zn-IalXlZT15s" /></p>
+
+<p>&nbsp;</p>
+
+<p>Now, that we have a lot of data. We need a lot of computing power, which cannot be forced upon a single computer, and hence we need a concept of &ldquo;distributed computing&rdquo;. This means a lot of commodity hardware. These computers are scalable - which means we can add or remove them quickly whenever needed. Finally, you need a framework that can run the job on this distributed computing environment on the data which is usually of hundreds of GB and sometimes of TBs as well.</p>
+
+<p>Now what you see is Data warehouse (DHW), consolidation of data from multiple sources- sales, traffic data, demographic data, the meaningful joining of data. DWH has complex analytic queries.&nbsp;</p>
+
+<p>This solves your time problem in the ETL pipeline.</p>
+
+<blockquote>Now, another twist comes when Data scientists join the team and they need data to predict the sales/services. They need the data in close to raw format as well as the data which is streaming into the system. Hence we need &ldquo;Data lakes&rdquo;.</blockquote>
+
+<p>Since the data lake has the data in near raw format. This follows the concept of ELT - Extract, Load, and then transform only when and as needed.&nbsp;</p>
+
+<p>We expect the latest data to be provided to the end-user using streaming data, i.e. real-time data. The best way to provide real-time data to users is using an asynchronous model, one such model is a publisher-subscriber model. Here we decouple the source of data from the consumer of data. Kafka is the most popular pub-sub model.</p>
+
+<p><strong>Maintenance of this DWH and Data Lakes, introducing new data sources, variation in the transformation of data for different use cases, addressing performance issues are some of the ongoing and business usual challenges that a Data Engineer resolves.</strong></p>
+
 </body>
 </html>
